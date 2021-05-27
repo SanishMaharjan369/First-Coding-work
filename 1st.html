@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<title>first work</title>
+<style>
+	body{
+  background-color: black;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {color: orange;
+  font-size: 30px;
+}
+</style>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<p id="demo">Click the button to change the layout of this paragraph</p>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("demo");
+  x.style.fontSize = "55px"; 
+  x.style.color = "red"; 
+}
+</script>
+
+</body>
+</html>
